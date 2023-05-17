@@ -33,7 +33,7 @@ var items = [
 
 const itemType = new GraphQLObjectType({
     name: 'item',
-    description: 'This represents a item made by a Owner (Programmer)',
+    description: 'This represents a item made by a Owner',
     fields: () => ({
         id: { type: new GraphQLNonNull(GraphQLInt) }, 
         name: { type: new GraphQLNonNull(GraphQLString) }, 
